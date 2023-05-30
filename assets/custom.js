@@ -114,3 +114,7 @@ $(document).on("click", ".accordion-header", function (){
   $(this).children().children("svg").toggleClass("rotate");
 });
   
+$(window).on("load", function () {
+  $('.other-article').wrapAll('<div class="other_grid_list" />');
+});
+
