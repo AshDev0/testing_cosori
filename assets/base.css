@@ -1,5 +1,9 @@
 /* Color custom properties */
 
+body{
+  color: #fff;
+}
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
