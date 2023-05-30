@@ -1,0 +1,95 @@
+<section id="corori-banner">
+    <div class="corori-banner">
+      <div class="corori-banner-slider">
+      {% for block in section.blocks %}
+        <div class="corori-banner-items">
+          <div class="image">
+            <img src="{{block.settings.image | img_url:'master' }}" alt="">
+          </div>
+          <div class="text text-position-{{block.settings.text-position}}">
+            <h1>{{ block.settings['heading-one'] }}</h1>
+            <h2>{{ block.settings['heading-two'] }}</h2>
+            <p>{{ block.settings.desc }}</p>
+            {%if block.settings.explore != blank%}
+            <a href="{{block.settings.btn-url}}">{{ block.settings.explore }}</a>
+            {%endif%}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    </div>
+  </section>
+  {% schema %}
+  {
+    "name": "Corosi Banner",
+    "tag": "section",
+    "class": "section",
+    "settings": [],
+    "blocks": [
+        {
+            "name": "Corosi Banner",
+            "type": "Corosi-Banner",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Banner Image"
+                },
+                {
+                    "type": "text",
+                    "id": "heading-one",
+                    "label": "Main Title"
+                },
+                {
+                    "type": "text",
+                    "id": "heading-two",
+                    "label": "How Many Percent off"
+                },
+                {
+                    "type": "text",
+                    "id": "desc",
+                    "label": "Description"
+                },
+                {
+                    "type": "text",
+                    "id": "explore",
+                    "label": "Button Text"
+                },
+                {
+                    "type": "url",
+                    "id": "btn-url",
+                    "label": "Button Link"
+                },
+                {
+                  "type": "select",
+                  "id": "text-position",
+                  "label": "Content Position",
+                  "default": "left",
+                  "options": [
+                    {
+                      "label": "Left",
+                      "value": "left"
+                    },
+                    {
+                      "value": "Center",
+                      "label": "center"
+                    },
+                    {
+                      "label": "Right",
+                      "value": "right"
+                    }
+                  ]
+                }
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Corosi Banner",
+        "settings": {
+        }
+      }
+    ]
+  }
+  {% endschema %}
+  

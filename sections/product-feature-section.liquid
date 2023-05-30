@@ -1,0 +1,35 @@
+<section id="product-feature">
+<div class="product-feature">
+  <div class="content">
+    <div class="content-items">
+      
+      {% assign info = product.metafields.prod_feature.prod_text %}
+      {% for value in info %}
+      <div class="content-item">
+        <img src="{{product.metafields.prod_feature.prod_img[forloop.index0]}}" data-acc="1" />
+        <p data-acc="{{ info }}">{{value}}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Product Features",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Product Features"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

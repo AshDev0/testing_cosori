@@ -1,0 +1,272 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d3d8195e-8396-4305-b19d-a1056a39d2ff": {
+      "type": "green-banner",
+      "settings": {
+        "heading": "Organic Furniture And Bedding Made In the USA",
+        "main-image": "shopify:\/\/shop_images\/1_1.png",
+        "banner-btn": "Learn More",
+        "url": ""
+      }
+    },
+    "8d3443be-9e68-45a7-b12e-ffbadf18b315": {
+      "type": "organic-section",
+      "blocks": {
+        "template--18451153584433__8d3443be-9e68-45a7-b12e-ffbadf18b315-16799919067281e2a6-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide-1.png",
+            "head6": "Materials",
+            "head2": "100% GOTS Certified Organic Wool",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "browse-btn": "Browse Now",
+            "url": ""
+          }
+        },
+        "86387f5e-170a-4973-8380-f72909138b8d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide-1.png",
+            "head6": "MATERIALS 1",
+            "head2": "100% GOTS Certified Organic Wool 1",
+            "desc": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Commodo Consequat. Duis Aute Irure Dolor In Reprehenderit In Voluptate Velit Esse Cillum Dolore Eu Fugiat Nulla Pariatur.",
+            "browse-btn": "Browse Now",
+            "url": ""
+          }
+        },
+        "c6aa1298-5b48-46f4-b7e7-b06b8aeda544": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide-1.png",
+            "head6": "Materials 2",
+            "head2": "100% GOTS Certified Organic Wool 2",
+            "desc": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Commodo Consequat. Duis Aute Irure Dolor In Reprehenderit In Voluptate Velit Esse Cillum Dolore Eu Fugiat Nulla Pariatur.",
+            "browse-btn": "Browse Now",
+            "url": ""
+          }
+        },
+        "38ddee3a-ed27-44e8-8f67-d881cd612ddc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide-1.png",
+            "head6": "Materials 3",
+            "head2": "100% GOTS Certified Organic Wool 3",
+            "desc": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Commodo Consequat. Duis Aute Irure Dolor In Reprehenderit In Voluptate Velit Esse Cillum Dolore Eu Fugiat Nulla Pariatur.",
+            "browse-btn": "Browse Now",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18451153584433__8d3443be-9e68-45a7-b12e-ffbadf18b315-16799919067281e2a6-0",
+        "86387f5e-170a-4973-8380-f72909138b8d",
+        "c6aa1298-5b48-46f4-b7e7-b06b8aeda544",
+        "38ddee3a-ed27-44e8-8f67-d881cd612ddc"
+      ],
+      "settings": {
+        "heading": "Greencradle Designs And Manufactures All Its Products In The USA Using The Most Rigorous Materials",
+        "subnav": ""
+      }
+    },
+    "124f9af9-206b-487c-ba7b-4cd3e09b9ac1": {
+      "type": "bestsellers",
+      "blocks": {
+        "89546e02-ee36-4bba-9a32-93a4d3b5302f": {
+          "type": "product",
+          "settings": {
+            "products": "7-in-1-crib"
+          }
+        },
+        "b3a957dc-5816-4855-a6b2-076ffe0b232e": {
+          "type": "product",
+          "settings": {
+            "products": "baby-crib-name"
+          }
+        },
+        "bf3dc570-3223-483f-80ca-4dafa73e4c5f": {
+          "type": "product",
+          "settings": {
+            "products": "bed-name"
+          }
+        }
+      },
+      "block_order": [
+        "89546e02-ee36-4bba-9a32-93a4d3b5302f",
+        "b3a957dc-5816-4855-a6b2-076ffe0b232e",
+        "bf3dc570-3223-483f-80ca-4dafa73e4c5f"
+      ],
+      "settings": {
+      }
+    },
+    "f2c2358f-f888-4708-ac42-40da2ba54938": {
+      "type": "rating-section",
+      "blocks": {
+        "cf3d5986-f682-4384-bc89-f4dabf02b3d2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rating-1.png",
+            "star": "shopify:\/\/shop_images\/star-1.png",
+            "head2": "Beautiful Crib, Beautiful Wood! And Much Appreciated Attention To Health And Environment Concerns.",
+            "namedate": "Jane Doe, 32 - 3\/3\/2023"
+          }
+        },
+        "2421fc9b-4572-4493-b32b-ac6c5ff1a500": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rating-1.png",
+            "star": "shopify:\/\/shop_images\/star-1.png",
+            "head2": "Beautiful Crib, Beautiful Wood! And Much Appreciated Attention To Health And Environment Concerns.",
+            "namedate": "Jane Doe, 32 - 3\/3\/2023"
+          }
+        }
+      },
+      "block_order": [
+        "cf3d5986-f682-4384-bc89-f4dabf02b3d2",
+        "2421fc9b-4572-4493-b32b-ac6c5ff1a500"
+      ],
+      "settings": {
+      }
+    },
+    "2fb2370d-cbcd-4535-b749-5df988750322": {
+      "type": "shopCategories",
+      "blocks": {
+        "83b29ac7-ff8c-44bf-ac32-ae15baa9f359": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/item-1.png",
+            "text": "Baby",
+            "url": ""
+          }
+        },
+        "7599dd92-0c5e-4a2f-91ca-752ec160b579": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/item-2.png",
+            "text": "Furniture",
+            "url": ""
+          }
+        },
+        "dbdb21fd-233e-4a94-9942-c451ec6d9563": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/item-3.png",
+            "text": "Bed",
+            "url": ""
+          }
+        },
+        "29701853-13be-4e48-98a1-4dc19d6e43f0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/item-1.png",
+            "text": "Baby Bed",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "83b29ac7-ff8c-44bf-ac32-ae15baa9f359",
+        "7599dd92-0c5e-4a2f-91ca-752ec160b579",
+        "dbdb21fd-233e-4a94-9942-c451ec6d9563",
+        "29701853-13be-4e48-98a1-4dc19d6e43f0"
+      ],
+      "settings": {
+        "heading": "Shop Categories"
+      }
+    },
+    "0731aac9-2895-47c6-9d90-04e1b19a047c": {
+      "type": "ourstory",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about1.png",
+        "head6": "our story",
+        "head1": "Welcome to Our House",
+        "text": "<p>Green Cradle was born out of necessity. After health issues arose within our own family, we began to seriously research the health effects associated with the chemicals in children's products. What did we learn? Furniture, mattresses, bedding and bodycare products were actually loaded with toxic chemicals, allergens and carcinogens. We felt overwhelmed by this information. We made changes to our lives, with our family as motivation. We've since found that family (and especially children) is exactly the motivation that drives many people who once had no interest in environmental issues to spontaneously turn green. For us, being green is as much a matter of family health as it is in the downstream effects to the environment.<\/p>",
+        "btn-text": "Learn More",
+        "url": ""
+      }
+    },
+    "8c57789e-b41c-4abb-99f9-e0afe9d28bb5": {
+      "type": "bestselling",
+      "blocks": {
+        "ed932a87-93eb-4601-bcfa-10f21f38c193": {
+          "type": "product",
+          "settings": {
+            "products": "baby-crib-name"
+          }
+        },
+        "1ab5f18e-a4df-4309-8416-22140dccd3cd": {
+          "type": "product",
+          "settings": {
+            "products": "7-in-1-crib"
+          }
+        },
+        "0a33f101-4ddf-4880-a954-c5160c0c43c5": {
+          "type": "product",
+          "settings": {
+            "products": "bed-name"
+          }
+        }
+      },
+      "block_order": [
+        "ed932a87-93eb-4601-bcfa-10f21f38c193",
+        "1ab5f18e-a4df-4309-8416-22140dccd3cd",
+        "0a33f101-4ddf-4880-a954-c5160c0c43c5"
+      ],
+      "settings": {
+        "head2": "Our Bestselling baby products for your baby to sleep safely"
+      }
+    },
+    "97a1b896-0cfa-4868-a365-b14a37f373b7": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18451153584433__97a1b896-0cfa-4868-a365-b14a37f373b7-1680160668c982fefd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--18451153584433__97a1b896-0cfa-4868-a365-b14a37f373b7-1680160668c982fefd-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get on the list & Never Miss an Offer<\/p>"
+          }
+        },
+        "template--18451153584433__97a1b896-0cfa-4868-a365-b14a37f373b7-1680160668c982fefd-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--18451153584433__97a1b896-0cfa-4868-a365-b14a37f373b7-1680160668c982fefd-0",
+        "template--18451153584433__97a1b896-0cfa-4868-a365-b14a37f373b7-1680160668c982fefd-1",
+        "template--18451153584433__97a1b896-0cfa-4868-a365-b14a37f373b7-1680160668c982fefd-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d3d8195e-8396-4305-b19d-a1056a39d2ff",
+    "8d3443be-9e68-45a7-b12e-ffbadf18b315",
+    "124f9af9-206b-487c-ba7b-4cd3e09b9ac1",
+    "f2c2358f-f888-4708-ac42-40da2ba54938",
+    "2fb2370d-cbcd-4535-b749-5df988750322",
+    "0731aac9-2895-47c6-9d90-04e1b19a047c",
+    "8c57789e-b41c-4abb-99f9-e0afe9d28bb5",
+    "97a1b896-0cfa-4868-a365-b14a37f373b7"
+  ]
+}

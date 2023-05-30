@@ -1,0 +1,41 @@
+<section id="smart-features">
+  <div class="smart-features">
+    <div class="content">
+      <h2>{{ section.settings.heading }}</h2>
+
+      <div class="smart-features-items">
+        {% assign info = product.metafields.smrt_feature.smrt_feature_head %}
+        {% for value in info %}
+        <div class="smart-features-item">
+          <img src="{{product.metafields.smrt_feature.smrt_feature_img[forloop.index0]}}" alt="" />
+          <h3 data-acc="{{ info }}">{{value}}</h3>
+          <p data-acc="1">{{product.metafields.smrt_feature.smrt_feature_text[forloop.index0]}}</p>
+        </div>
+        {%endfor%}
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Smart Features",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Main Heading"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Smart Features"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

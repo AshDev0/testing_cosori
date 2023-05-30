@@ -1,0 +1,30 @@
+<section id="product-banner">
+<div class="container">
+  <div class="content">
+  <div class="content-img">
+    <img src="{{product.metafields.prod_bann.bann-img}}" />
+  </div>
+    <div class="text-content">
+      <h2>{{product.metafields.prod_bann.Prod-Head}}</h2>
+      <p>{{product.metafields.prod_bann.prod-desc}}</p>
+    </div>
+  </div>
+</div>
+</section>
+{% schema %}
+  {
+    "name": "Product Banner",
+    "settings": [],
+    "presets":[
+      {
+        "name": "Product Banner"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

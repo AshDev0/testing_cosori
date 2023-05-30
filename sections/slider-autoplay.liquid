@@ -1,0 +1,37 @@
+<section id="slider-autoplay">
+    <div class="slider-autoplay">
+        <h2>{{section.settings.heading}}</h2>
+        <div class="content">
+        <ul class="autoplay-slider">
+            {% assign info = product.metafields.ind_trus.ind_trus_img %}
+            {% for value in info %}
+            <li>
+                <img src="{{value}}" alt="" />
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Autoplay Slider",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+    {
+      "type":"text",
+      "id": "heading",
+      "label": "Main Heading"
+    }
+    ],
+    "presets": [
+      {
+        "name": "Autoplay Slider",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

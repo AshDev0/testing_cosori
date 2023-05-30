@@ -1,0 +1,30 @@
+<section id="safety-section">
+    <div class="safety-section">
+        <div class="content">
+            <div class="content-text">
+                <h2>{{product.metafields.saf_sec.saf_sec_head}}</h2>
+                <p>{{product.metafields.saf_sec.saf_sec_text}}</p>
+            </div>
+            <div class="content-img">
+                <img src="{{product.metafields.saf_sec.saf_sec_img}}" alt="" />
+            </div>
+        </div>
+    </div>
+</section>
+{% schema %}
+  {
+    "name": "Safety section",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      
+    ],
+    "presets": [
+      {
+        "name": "Safety section",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

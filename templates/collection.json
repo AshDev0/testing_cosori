@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "inverse"
+      }
+    },
+    "a3a8b21c-a3ab-4291-8805-f2a3a7a2c495": {
+      "type": "collection-banner-section",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shop-all-collection-banner.jpg",
+        "heading": "Where your Kitchen",
+        "para": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s!<\/p>"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "53f3ed6f-db41-4bfb-83f9-a722bebd1188": {
+      "type": "icons-section",
+      "blocks": {
+        "8883d395-ad1f-4cb3-8ea0-f9a057edaae6": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_a861d3a9f9474dc99156c23f08865371_1.png",
+            "heading": "USER Guideline & Manuals",
+            "url": ""
+          }
+        },
+        "360048db-1d1b-4b63-b3dc-1b66b027aff2": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_562de8427cf947d08322973e5a1e912f_1.png",
+            "heading": "Product Registration",
+            "url": "#"
+          }
+        },
+        "5c2c17ad-4ade-46c1-92e5-8a3c57ced471": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_a25804019336474eb747d7d87917cd04_2.png",
+            "heading": "Support",
+            "url": "#"
+          }
+        },
+        "1520ddac-9a8b-4c33-99b2-c7ac28fc2915": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_a25804019336474eb747d7d87917cd04_2.png",
+            "heading": "faq",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "8883d395-ad1f-4cb3-8ea0-f9a057edaae6",
+        "360048db-1d1b-4b63-b3dc-1b66b027aff2",
+        "5c2c17ad-4ade-46c1-92e5-8a3c57ced471",
+        "1520ddac-9a8b-4c33-99b2-c7ac28fc2915"
+      ],
+      "settings": {
+      }
+    },
+    "46eed232-a7a0-4c88-84d5-efde64339e16": {
+      "type": "learn-more",
+      "settings": {
+        "desc": "IMPORTANT VOLUNTARY SAFETY RECALL.",
+        "link": "Learn more",
+        "url": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "a3a8b21c-a3ab-4291-8805-f2a3a7a2c495",
+    "product-grid",
+    "53f3ed6f-db41-4bfb-83f9-a722bebd1188",
+    "46eed232-a7a0-4c88-84d5-efde64339e16"
+  ]
+}

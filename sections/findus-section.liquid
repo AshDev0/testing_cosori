@@ -1,0 +1,55 @@
+<section id="find-section">
+    <div class="find-section">
+        <div class="content">
+              <h2>{{section.settings.heading}}</h2>
+              <h3>{{section.settings.subheading}}</h3> 
+              <ul>
+                {%for block in section.blocks %}
+                <li>
+                    <img src="{{block.settings.image | img_url: 'master'}}">
+                </li>
+                {%endfor%}
+            </ul>
+        </div>
+    </div>
+</section>
+{% schema %}
+  {
+    "name": "find section",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Main Heading"
+        },
+        {
+            "type": "text",
+            "id": "subheading",
+            "label": "Sub Heading"
+        }
+    ],
+    "blocks":[
+        {
+        "name": "Clients",
+        "type": "Clients",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Clients List"
+            }
+        ]
+        
+        }
+    ],
+    "presets": [
+      {
+        "name": "find section",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

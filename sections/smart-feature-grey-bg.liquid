@@ -1,0 +1,33 @@
+<section id="smart-features-grey">
+    <div class="smart-features-grey">
+      <div class="content">
+        <div class="smart-features-items">
+          {% assign info = product.metafields.grey_bg.grey_bg_head %}
+          {% for value in info %}
+          <div class="smart-features-item">
+            <img src="{{product.metafields.grey_bg.grey_bg_img[forloop.index0]}}" alt="" />
+            <h3 data-acc="{{ info }}">{{value}}</h3>
+            <p data-acc="1">{{product.metafields.grey_bg.grey_bg_text[forloop.index0]}}</p>
+          </div>
+          {%endfor%}
+        </div>
+      </div>
+    </div>
+  </section>
+  {% schema %}
+    {
+      "name": "Smart Features Grey",
+      "settings": [],
+      "presets": [
+        {
+          "name": "Smart Features Grey"
+        }
+      ]
+    }
+  {% endschema %}
+  
+  {% stylesheet %}
+  {% endstylesheet %}
+  
+  {% javascript %}
+  {% endjavascript %}

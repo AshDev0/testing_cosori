@@ -1,0 +1,61 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "5c878704-192c-4338-876e-e0f378cd27a6": {
+          "type": "text",
+          "settings": {
+            "heading": "WELCOME TO OUR HOUSE",
+            "subtext": "<p>Our goal at Green Cradle is to offer our beautiful, craftsman, heirloom certified organic latex mattress, solid wood furniture and solid wood cribs that are all natural, non-toxic, eco-friendly, and Made in USA.  What a nice way to green the world.<\/p><p>VISIT OUR LOS ANGELES MATTRESS & FURNITURE SHOWROOM<\/p><p>13344 VENTURA BLVD, SHERMAN OAKS, CA 91423<\/p><p>CALL TOLL FREE (877) 476-2735<\/p><p>STORE HOURS: TUE-SAT 11:30AM-4:30PM (PST) and SUN & MON By Appointment Only. Email us at info@greencradle.com to schedule an appointment.<\/p>"
+          }
+        },
+        "2f3343c5-2523-4bfc-804e-ac7ae6f926f0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "LEARN",
+            "menu": "footer"
+          }
+        },
+        "bfa5c674-dcc0-4eff-8c57-cf23b90f7849": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "e3d1ea8e-7c8c-455b-a64c-bb9f7c67fe74": {
+          "type": "text",
+          "settings": {
+            "heading": "YOU HAVE QUESTIONS CALL US (877) 476-2735",
+            "subtext": "<p>Subscribe to our newsletter and be the first to receive exclusive offers, hear about our new products and view upcoming promotions.<\/p><p>We at Green Cradle do our research to make your home safe and we tell you what we’ve learned regularly in our newsletter.  We promise not to share your personal information with anyone.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "5c878704-192c-4338-876e-e0f378cd27a6",
+        "2f3343c5-2523-4bfc-804e-ac7ae6f926f0",
+        "bfa5c674-dcc0-4eff-8c57-cf23b90f7849",
+        "e3d1ea8e-7c8c-455b-a64c-bb9f7c67fe74"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "get on the list & Never miss an offer",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 48,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

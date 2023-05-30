@@ -1,0 +1,342 @@
+{
+  "sections": {
+    "f4761342-cb17-4c5e-af3e-7f139c9f08e1": {
+      "type": "corosi-banner",
+      "blocks": {
+        "f4d2a9e8-5e0c-403c-b482-460885ec0c59": {
+          "type": "Corosi-Banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_8b99485b4b6545f3a7f470a0e12186e3.jpg",
+            "heading-one": "Lorem Ipsum is simply dummy text of the printing",
+            "heading-two": "25% off",
+            "desc": "Lorem Ipsum is simply dummy text",
+            "explore": "Explore",
+            "btn-url": "",
+            "text-position": "right"
+          }
+        },
+        "f41f9529-f5c5-4a4e-b125-536b07bcca29": {
+          "type": "Corosi-Banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_b501acc13f2743e992b68e7ddecaad2d.jpg",
+            "heading-one": "Mother's Day Sale",
+            "heading-two": "",
+            "desc": "Lorem Ipsum is simply dummy text",
+            "explore": "",
+            "btn-url": "",
+            "text-position": "left"
+          }
+        },
+        "b9083af2-49e3-4707-aaa5-6517a8e2d356": {
+          "type": "Corosi-Banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_fe86a489ce854066a669cb9ba25883ff.jpg",
+            "heading-one": "Mother's Day Sale",
+            "heading-two": "",
+            "desc": "Lorem Ipsum is simply dummy text",
+            "explore": "",
+            "btn-url": "",
+            "text-position": "Center"
+          }
+        },
+        "a8c85d87-53ce-410b-a83b-66fe43b64970": {
+          "type": "Corosi-Banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner4.webp",
+            "heading-one": "Mother's Day Sale",
+            "heading-two": "",
+            "desc": "",
+            "explore": "",
+            "btn-url": "",
+            "text-position": "Center"
+          }
+        },
+        "9d65038e-4d3f-469c-b7c0-feeaccfb9347": {
+          "type": "Corosi-Banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_8ddfa3f1f93a47da96f1b25a97b37fb2.png",
+            "heading-one": "Mother's Day Sale",
+            "heading-two": "",
+            "desc": "",
+            "explore": "",
+            "btn-url": "",
+            "text-position": "Center"
+          }
+        }
+      },
+      "block_order": [
+        "f4d2a9e8-5e0c-403c-b482-460885ec0c59",
+        "f41f9529-f5c5-4a4e-b125-536b07bcca29",
+        "b9083af2-49e3-4707-aaa5-6517a8e2d356",
+        "a8c85d87-53ce-410b-a83b-66fe43b64970",
+        "9d65038e-4d3f-469c-b7c0-feeaccfb9347"
+      ],
+      "settings": {
+      }
+    },
+    "be05b12c-2f06-4555-975f-c54838fc8195": {
+      "type": "video-section",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f63a3b841ab4400a93ae5039066cc3af.mov",
+        "heading": "Con Junktivitas",
+        "subheading": "#poweredby",
+        "btn-text": "Learn More",
+        "url": "#"
+      }
+    },
+    "e0f624f6-53c3-40b9-9f1b-bedd8b4918b7": {
+      "type": "possibilities-section",
+      "blocks": {
+        "0593ef9c-d905-4d62-90ab-45b897a7c430": {
+          "type": "posibilities",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_25f911c3a26a43acb6cdbc60bd5cdc27_1.png",
+            "subheading": "Explore the",
+            "mainheading": "creativities",
+            "desc": "Lorem Ipsum is simply dummy text.",
+            "btn-text": "Explore air fryers",
+            "url": "#"
+          }
+        },
+        "1d064b78-593a-4b5a-b21d-0f69671bd663": {
+          "type": "posibilities",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_846089f08a6d4eda9aaf187b7462731e.png",
+            "subheading": "Explore the",
+            "mainheading": "creativities",
+            "desc": "Lorem Ipsum is simply dummy text.",
+            "btn-text": "",
+            "url": ""
+          }
+        },
+        "471d3a81-56e1-45e9-a1e2-2c2cdb55b291": {
+          "type": "posibilities",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_6d0b305d30b747c1a60ef0251ef31c45.png",
+            "subheading": "Explore the",
+            "mainheading": "creativities",
+            "desc": "Lorem Ipsum is simply dummy text.",
+            "btn-text": "Explore Ovens",
+            "url": ""
+          }
+        },
+        "409d0ce1-d279-41b6-9581-541b0b1c6ee4": {
+          "type": "posibilities",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_7e278bab5d654676834653468ca22bd0.png",
+            "subheading": "Explore the",
+            "mainheading": "Creativities",
+            "desc": "Lorem Ipsum is simply dummy text.",
+            "btn-text": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "0593ef9c-d905-4d62-90ab-45b897a7c430",
+        "1d064b78-593a-4b5a-b21d-0f69671bd663",
+        "471d3a81-56e1-45e9-a1e2-2c2cdb55b291",
+        "409d0ce1-d279-41b6-9581-541b0b1c6ee4"
+      ],
+      "settings": {
+      }
+    },
+    "7c0353d0-2f94-440f-8cbf-a8ee8235ce96": {
+      "type": "cosori-community",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_067347d1b39e4cd9b32dcd300d1d549a.jpg",
+        "heading": "Why do we use it?",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      }
+    },
+    "ed9935ad-2bdd-4a96-865d-fd856dea0258": {
+      "type": "our-story",
+      "settings": {
+        "heading": "our",
+        "subheading": "story",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_1a17014810e4451dbbb08542fe759067.jpg"
+      }
+    },
+    "d2f9889b-668a-4d7b-b3b3-fc61281169cb": {
+      "type": "findus-section",
+      "blocks": {
+        "30e6291d-43e8-4130-8ef6-63d8fb898839": {
+          "type": "Clients",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_c623427470a94c4ab64829b4b84319fc_1.png"
+          }
+        },
+        "aff59048-4af9-4fee-bd81-9f3791375c8b": {
+          "type": "Clients",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_b1c7a9c82b954fb794c05a303a5b3ad5_1.png"
+          }
+        },
+        "741333cf-aac1-480a-b158-1c1a68364935": {
+          "type": "Clients",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_2ebdd8056daf48e9b3a08d6d2878cca4_1.png"
+          }
+        },
+        "e19f5948-83a8-4406-909e-830ee2be33ae": {
+          "type": "Clients",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_638be37c78ca4cc9bc224d65f1af6ed0_1.png"
+          }
+        },
+        "e2896b73-9b17-40cf-99c9-1985fef71bbd": {
+          "type": "Clients",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_0f406ba182ac470fad14eb6bc36f8c7e_1.png"
+          }
+        },
+        "9bd1ac6a-2dc1-42e3-beec-655d588c8338": {
+          "type": "Clients",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_b18a3ae847a2457ca4d513f30e678187.png"
+          }
+        },
+        "4418561a-c9ac-4dcf-aa35-41c1eea54a64": {
+          "type": "Clients",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_5203a5ea959a4627b56a4281ab24ac40.png"
+          }
+        },
+        "7bc10c2e-4ebf-4c37-b266-01be83db2d99": {
+          "type": "Clients",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_0337b3b2fe7a4539ac5b47d7cba8c5fa.png"
+          }
+        },
+        "04024a2d-fd23-4a58-b139-410c7dd13c70": {
+          "type": "Clients",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_c1f9707bb46946b9a416f87ab0add46f.png"
+          }
+        }
+      },
+      "block_order": [
+        "30e6291d-43e8-4130-8ef6-63d8fb898839",
+        "aff59048-4af9-4fee-bd81-9f3791375c8b",
+        "741333cf-aac1-480a-b158-1c1a68364935",
+        "e19f5948-83a8-4406-909e-830ee2be33ae",
+        "e2896b73-9b17-40cf-99c9-1985fef71bbd",
+        "9bd1ac6a-2dc1-42e3-beec-655d588c8338",
+        "4418561a-c9ac-4dcf-aa35-41c1eea54a64",
+        "7bc10c2e-4ebf-4c37-b266-01be83db2d99",
+        "04024a2d-fd23-4a58-b139-410c7dd13c70"
+      ],
+      "settings": {
+        "heading": "FIND US AT THESE",
+        "subheading": "Locations"
+      }
+    },
+    "8341ab03-4169-4706-b7ba-31f860f84a23": {
+      "type": "corosi-review-section",
+      "blocks": {
+        "6bae99f6-403d-44c2-9929-db839e8e95ba": {
+          "type": "review",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_49699025dfae466dabe3dda2099e9949_1_1.jpg",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "heading": "air fryer pro",
+            "links": "go to product",
+            "url": "#"
+          }
+        },
+        "af6c7420-6b71-45aa-acff-4c5eccb5e57d": {
+          "type": "review",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_fe2c4784fc654b6789ebb192d4199410_1_1.jpg",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "heading": "air fryer pro",
+            "links": "go to product",
+            "url": "#"
+          }
+        },
+        "498be34b-f781-4502-aab1-c1d9b0208f53": {
+          "type": "review",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_4da3a11a171248cfacbb8c2f4e35b83b_1_1.png",
+            "desc": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "heading": "air fryer pro",
+            "links": "go to product",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "6bae99f6-403d-44c2-9929-db839e8e95ba",
+        "af6c7420-6b71-45aa-acff-4c5eccb5e57d",
+        "498be34b-f781-4502-aab1-c1d9b0208f53"
+      ],
+      "settings": {
+      }
+    },
+    "010ccdd2-7d7e-470b-8244-e08abf5eac9c": {
+      "type": "icons-section",
+      "blocks": {
+        "45368edc-6568-4f9b-8dc3-2ead7a4e3cb2": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_a861d3a9f9474dc99156c23f08865371_1.png",
+            "heading": "User Guides & Manuals",
+            "url": "#"
+          }
+        },
+        "1102792b-bf1c-43d9-bfff-65968617fca7": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_562de8427cf947d08322973e5a1e912f_1.png",
+            "heading": "Product Registration",
+            "url": ""
+          }
+        },
+        "807f814f-03aa-4140-a584-be16562c2bbf": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_a25804019336474eb747d7d87917cd04_2.png",
+            "heading": "Support",
+            "url": "#"
+          }
+        },
+        "f060b3c4-f495-41d1-8d3b-ab1a5ff7d23e": {
+          "type": "icons",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/assets_70f756a994b448e2b60a10734185b2d7_a25804019336474eb747d7d87917cd04_2.png",
+            "heading": "faq",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "45368edc-6568-4f9b-8dc3-2ead7a4e3cb2",
+        "1102792b-bf1c-43d9-bfff-65968617fca7",
+        "807f814f-03aa-4140-a584-be16562c2bbf",
+        "f060b3c4-f495-41d1-8d3b-ab1a5ff7d23e"
+      ],
+      "settings": {
+      }
+    },
+    "674c9346-c1e9-4d6a-9136-39a631103684": {
+      "type": "learn-more",
+      "settings": {
+        "desc": "IMPORTANT VOLUNTARY SAFETY RECALL.",
+        "link": "Learn more",
+        "url": "#"
+      }
+    }
+  },
+  "order": [
+    "f4761342-cb17-4c5e-af3e-7f139c9f08e1",
+    "be05b12c-2f06-4555-975f-c54838fc8195",
+    "e0f624f6-53c3-40b9-9f1b-bedd8b4918b7",
+    "7c0353d0-2f94-440f-8cbf-a8ee8235ce96",
+    "ed9935ad-2bdd-4a96-865d-fd856dea0258",
+    "d2f9889b-668a-4d7b-b3b3-fc61281169cb",
+    "8341ab03-4169-4706-b7ba-31f860f84a23",
+    "010ccdd2-7d7e-470b-8244-e08abf5eac9c",
+    "674c9346-c1e9-4d6a-9136-39a631103684"
+  ]
+}

@@ -1,0 +1,52 @@
+<section id="icons-section">
+<div class="icons-section">
+    <div class="content">
+        {%for block in section.blocks%}
+        <div class="content-item">
+            <img src="{{block.settings.image | img_url: 'master'}}">
+            <p>{{block.settings.heading}}</p>
+        </div>
+        {%endfor%}
+    </div>
+</div>
+</section>
+{% schema %}
+  {
+    "name": "Icons Section",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      
+    ],
+    "blocks": [
+        {
+            "name": "icons",
+            "type": "icons",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Icons"
+                },
+                {
+                    "type":"text",
+                    "id": "heading",
+                    "label": "Heading"
+                },
+                {
+                    "type": "url",
+                    "id": "url",
+                    "label": "Content Url"
+                }
+            ]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Icons Section",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

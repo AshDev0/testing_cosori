@@ -1,0 +1,63 @@
+<section id="our-story--{{ section.id }}" class="our-story">
+  <div class="main-our-story">
+    <div class="main-our-story-text">
+      <p class="small">{{ section.settings.head6 }}</p>
+      <h2>{{ section.settings.head1 }}</h2>
+      <p>{{ section.settings.text }}</p>
+      <a href="{{ section.settings.url }}">{{ section.settings.btn-text }}</a>
+    </div>
+    <div class="main-our-story-img">
+      <img src="{{ section.settings.image | img_url:'master' }}" />
+    </div>
+  </div>
+</section>
+{% schema %}
+    {
+    "name": "Our Story",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "head6",
+        "label": "Sub Heading"
+      },
+      {
+        "type": "text",
+        "id": "head1",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Description"
+      },
+      {
+        "type": "text",
+        "id": "btn-text",
+        "label": "Learn More"
+      },
+      {
+        "type": "url",
+        "id": "url",
+        "label": "About us"
+      }  
+    ],
+    "presets": [
+      {
+        "name":"Our Story",
+        "settings" :{
+        }
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

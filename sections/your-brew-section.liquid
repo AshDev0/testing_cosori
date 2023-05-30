@@ -1,0 +1,26 @@
+<section id="your-brew-section">
+  <div class="your-brew-section">
+    <div class="content">
+      <div class="content-text">
+        <h2>{{product.metafields.brew_info.brew_head}}</h2>
+        <p>{{product.metafields.brew_info.brew_desc}}</p>
+        <img src="{{product.metafields.brew_info.brew_img}}" alt="apple" />
+      </div>
+      <div class="content-img">
+        <img src="{{product.metafields.brew_info.brew_right_img}}" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Brew Section",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Brew Section"
+      }
+    ]
+  }
+{% endschema %}

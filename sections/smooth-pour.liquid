@@ -1,0 +1,34 @@
+<section id="smooth-pour">
+    <div class="smooth-pour">
+        {% assign info = product.metafields.smo_pour.smo_pour_head %}
+        {% for value in info %}
+        <div class="content">
+            <div class="content-img">
+                <img src="{{product.metafields.smo_pour.smo_pour_img[forloop.index0]}}" alt=" " />
+            </div>
+            <div class="content-text">
+                <h2 data-acc="{{ info }}">{{value}}</h2>
+                <p>{{product.metafields.smo_pour.smo_pour_desc[forloop.index0]}}</p>
+            </div>
+        </div>
+        {% endfor%}
+    </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Smooth Pour",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      
+    ],
+    "presets": [
+      {
+        "name": "Smooth Pour",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

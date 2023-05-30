@@ -1,0 +1,63 @@
+<section id="video-section">
+<div class="video-section">
+    <div class="video-content">
+        <video autoplay="" muted="" loop="" class="bg-video">
+            <source src="{{section.settings.video}}" type="video/mp4">
+          </video>
+    </div>
+
+<div class="text-content">
+    <h2>{{section.settings.heading}}</h2>
+    <h3>{{section.settings.subheading}}</h3>
+    <a href="#">{{section.settings.btn-text}}</a>
+</div>
+</div>
+</section>
+
+{% schema %}
+  {
+    "name": "Video Section",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+      "type": "text",
+      "id": "video",
+      "label": "Background Video",
+      "default": "https://cdn.shopify.com/videos/c/o/v/f63a3b841ab4400a93ae5039066cc3af.mov"
+    },
+    {
+        
+        "type": "text",
+        "id": "heading",
+        "label": "Main heading"
+    },
+    {
+        
+        "type": "text",
+        "id": "subheading",
+        "label": "Sub heading"
+    },
+    {
+        
+        "type": "text",
+        "id": "btn-text",
+        "label": "Button Title"
+    },
+    {
+        
+        "type": "url",
+        "id": "url",
+        "label": "Button Url"
+    }
+
+    ],
+    "presets": [
+      {
+        "name": "Video Section",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

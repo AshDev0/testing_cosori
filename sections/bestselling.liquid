@@ -1,0 +1,59 @@
+<section id="bestSelling-section--{{ section.id }}" class="bestSelling-section">
+  <div class="text-container">
+  <div class="nav-text">
+    <p>ORGANIC</p>
+    <p>SAFE</p>
+    <p>COMFY</p>
+  </div>
+  <h2>{{ section.settings.head2 }}</h2>
+  </div>
+  <div class="products-list">
+  {% for block in section.blocks %}
+  {% assign product = all_products[block.settings.products] %}
+    
+  <div class="products">
+    <a href="{{ block.url }}">
+    <img src="{{ product | img_url:'master' }}" />
+    <div class="product-text">
+      <p class="title">{{ product.title  }}</p>
+      <p class="price">{{ product.price | money_without_currency }}</p>
+      <p class="desc">{{ product.description }}</p>
+    </div>
+      </a>
+  </div>
+    
+  {% endfor %}
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Bestselling Product",
+    "settings": [
+      {
+        "type": "text",
+        "id": "head2",
+        "label": "Main title"
+      }
+    ],
+    "blocks": [
+     {
+       "name": "product",
+       "type": "product",
+       "settings": [
+         {
+          "id": "products",
+          "type": "product",
+          "label": "Choose Products"
+         }
+       ]
+     }
+   ],
+    "presets": [
+    {
+      "name": "Bestselling Product",
+      "settings": {
+      }
+    }
+  ]
+  }
+{% endschema %}

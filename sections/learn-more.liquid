@@ -1,0 +1,37 @@
+<section id="learn-more">
+    <div class="learn-more">
+        <p>{{section.settings.desc}} <a href="#">{{section.settings.link}} </a></p>
+    </div>
+</section>
+{% schema %}
+  {
+    "name": "Learn More",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+          {
+      "type": "text",
+      "id": "desc",
+      "label": "Section Text"
+          },
+          {
+            "type": "text",
+            "id": "link",
+            "label": "Link Text"
+                },
+                {
+                    "type": "url",
+                    "id": "url",
+                    "label": "Section link"
+                        }
+
+    ],
+    "presets": [
+      {
+        "name": "Learn More",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

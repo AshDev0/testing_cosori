@@ -1,0 +1,77 @@
+<section id="posibility-section">
+    <div class="posibility-section">
+        <div class="posibility-slider">
+        {%for block in section.blocks %}
+    <div class="content">
+    <div class="text-content">
+        <h2>{{block.settings.subheading}}</h2>
+        <h3>{{block.settings.mainheading}}</h3>
+        <p>{{block.settings.desc}}
+        </p>
+      {% if block.settings.btn-text != blank %}
+        <a href="#">{{block.settings.btn-text}}</a>
+        {% endif %}
+    </div>
+    <div class="image-content">
+        <img src="{{block.settings.image | img_url: 'master'}}" >
+        </div>
+    </div>
+      {% endfor %}
+    </div>
+    </div>
+    </section>
+    {% schema %}
+    {
+        "name": "Posibility Section",
+        "tag": "section",
+        "class": "section",
+        "settings": [],
+        "blocks":[
+            {
+                "name": "posibilities",
+                "type": "posibilities",
+                "settings":[
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Maine Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "subheading",
+                        "label": "Subheading"
+                    },
+                    {
+                        "type": "text",
+                        "id": "mainheading",
+                        "label": "Main Heading"
+                    },
+                    {
+                        "type": "text",
+                        "id": "desc",
+                        "label": "Description"
+                    },
+                    {
+                        "type": "text",
+                        "id": "btn-text",
+                        "label": "Button Text"
+                    },
+                    {
+                        "type": "url",
+                        "id": "url",
+                        "label": "Button Url"
+                    }
+    
+                ]
+            }
+    
+        ],
+        "presets": [
+          {
+            "name": "Posibility Section",
+            "settings": {
+            }
+          }
+        ]
+      }
+    {% endschema %}
